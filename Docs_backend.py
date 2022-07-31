@@ -4,7 +4,7 @@ import os
 
 # at first I tried FLASK but kept getting Bad Exception Error so I gave up on that
 
-path = 'D:\\important shit\\Python shit\\Bad Apple\\bad apple frames for shorts'
+path = 'path to frames with folder'
 
 lr = np.array([0, 0, 0])
 ur = np.array([250, 250, 250])
@@ -21,7 +21,7 @@ for f in os.listdir(path):
     for xl in range(31):
         img = np.delete(img, -1)
 
-    txt_p = 'D:\\important shit\\Python shit\\Bad Apple\\word\\frame data\\' + f +'.txt'
+    txt_p = 'path to output frames\\' + f +'.txt'
     txt = open(txt_p, 'w')
 
     txt.write(str(id) + ',')
@@ -31,7 +31,7 @@ for f in os.listdir(path):
             txt.write('1')
         else:
             txt.write('0')
-
+		
     txt.close()
 
     print('frame = ' + f)
