@@ -1,1 +1,1 @@
-these are the frame data for the first couple frames of bad apple (until the riding broom to castle part)
+these are the frame data for the first couple frames of bad apple (not all just an example of what it will look like since i dont think anyone is going to sit there for 7 hours rendering the whole thing)
